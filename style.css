@@ -1,0 +1,28 @@
+/* background image */
+
+.bg-image{
+background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+height: 1500px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+
+.bg-text{
+    position: absolute;
+    color: wheat;
+    top: 50%;
+    left: 50%;  transform: translate(-50%,-50%);
+    font-size: 400px;
+    
+}
+/* background image */
+
+/* pseudo elements */
+
+
+
+
