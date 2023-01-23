@@ -23,6 +23,83 @@ position: relative;
 
 /* pseudo elements */
 
+.text::first-letter {
+    color: blue;
+    font-size: 40px;
+    font-style: italic;
+}
+.text::after{
+    content: url(https://media.giphy.com/media/QTrG6mjkHEkpFR3DqX/giphy.gif);
+    
+}
+
+
+/* flex-box */
+
+.box-wrapper{
+display: flex;
+width: 1100px;
+height: 600px;
+background-color: green ;
+margin: 0 auto;
+}
+
+.right-box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(72, 11, 184);
+    margin: 0 auto;
+}
+.left-box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+    margin: 0 auto;
+}
+
+.block1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 13);
+}
+.block2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(55, 0, 255);
+}
+.block3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(104, 104, 104);
+}
+.block4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 247, 255);
+}
+.block-wapper{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.wrapper-box2{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper-box2 img{
+    width: 100%;
+}
+
+
+
+
+
+
+
 
 
 
